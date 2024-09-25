@@ -64,7 +64,7 @@
 &trans     &trans    &trans  &kp MINUS  &trans      &trans     &kp C_MUTE  &kp PG_UP  &kp HOME  &kp UP           &kp END    &kp LBKT      &kp RBKT
 &trans     &trans    &trans  &trans     &trans      &trans                 &kp PG_DN  &kp LEFT  &kp DOWN         &kp RIGHT  &kp KP_MINUS  &trans
 &trans     &trans    &trans  &trans                                                             &trans           &trans     &trans        &trans
-           &trans    &trans                                                                                                                         &trans
+           &trans    &trans                                                                                                                         &to 3
                      &trans  &trans                                                                                                       &trans
                              &trans     &trans                                                                              &trans
             >;
@@ -80,7 +80,7 @@
 &trans  &trans  &mkp RCLK  &mkp MCLK  &mkp LCLK  &trans  &kp C_MUTE  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans  &trans
 &trans  &trans  &trans     &trans     &trans     &trans              &trans  &trans     &trans     &trans     &trans  &trans
 &trans  &trans  &trans     &trans                                                       &trans     &trans     &trans  &trans
-        &trans  &trans                                                                                                        &trans
+        &trans  &trans                                                                                                        &to 0
                 &trans     &trans                                                                                     &trans
                            &mkp LCLK  &mkp RCLK                                                               &trans
             >;
