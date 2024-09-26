@@ -80,7 +80,7 @@
 &trans  &trans  &mkp RCLK  &mkp MCLK  &mkp LCLK  &trans  &kp C_MUTE  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans  &trans
 &trans  &trans  &trans     &trans     &trans     &trans              &trans  &trans     &trans     &trans     &trans  &trans
 &trans  &trans  &trans     &trans                                                       &trans     &trans     &trans  &trans
-        &mo 4   &trans                                                                                                        &to 0
+        &mo 4   &mo 5                                                                                                         &to 0
                 &trans     &trans                                                                                     &trans
                            &mkp LCLK  &mkp RCLK                                                               &trans
             >;
@@ -90,6 +90,20 @@
 
         scroll {
             display-name = "SCROLL";
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans                                          &trans  &trans  &trans  &trans
+        &trans  &trans                                                                                  &trans
+                &trans  &trans                                                                  &trans
+                        &trans  &trans                                                  &trans
+            >;
+        };
+
+        snipe {
+            display-name = "SNIPE";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
