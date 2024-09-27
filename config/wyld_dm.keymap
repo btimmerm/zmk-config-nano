@@ -75,14 +75,14 @@
         mouse_layer {
             display-name = "MOUSE";
             bindings = <
-&trans  &trans  &trans     &trans     &trans     &trans              &trans  &trans     &trans     &trans     &trans  &trans
-&trans  &trans  &trans     &trans     &trans     &trans              &trans  &trans     &trans     &trans     &trans  &trans
-&trans  &trans  &mkp RCLK  &mkp MCLK  &mkp LCLK  &trans  &kp C_MUTE  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans  &trans
-&trans  &trans  &trans     &trans     &trans     &trans              &trans  &trans     &trans     &trans     &trans  &trans
-&trans  &trans  &trans     &trans                                                       &trans     &trans     &trans  &trans
-        &mo 4   &mo 5                                                                                                         &to 0
-                &trans     &trans                                                                                     &trans
-                           &mkp LCLK  &mkp RCLK                                                               &trans
+&trans  &trans  &trans     &trans     &trans     &trans              &trans  &trans     &trans     &trans     &trans    &trans
+&trans  &trans  &trans     &trans     &trans     &trans              &trans  &trans     &trans     &trans     &trans    &trans
+&trans  &trans  &mkp RCLK  &mkp MCLK  &mkp LCLK  &trans  &kp C_MUTE  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans    &trans
+&trans  &trans  &trans     &trans     &trans     &trans              &trans  &trans     &trans     &trans     &trans    &trans
+&trans  &trans  &trans     &trans                                                       &trans     &trans     &trans    &trans
+        &mo 4   &mo 5                                                                                                             &to 0
+                &trans     &trans                                                                                       &mkp MB5
+                           &mkp LCLK  &mkp RCLK                                                               &mkp MB4
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
