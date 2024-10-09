@@ -74,8 +74,8 @@
 &kp CAPS   &kp A           &kp S           &kp D         &kp F      &kp G   &kp C_MUTE  &kp H   &kp J   &kp K      &kp L      &kp SEMI     &kp SQT
 &kp LSHFT  &kp Z           &kp X           &kp C         &kp V      &kp B               &kp N   &kp M   &kp COMMA  &kp DOT    &kp FSLH     &kp RSHFT
 &kp LCTRL  &kp LCTRL       &kp LGUI        &kp LEFT_ALT                                                 &kp EQUAL  &kp GRAVE  &kp K_CMENU  &kp RCTRL
-           &mo RAISE_TEMP  &kp ENTER                                                                                                                      &mo LOWER_TEMP
-                           &mo MOUSE_TEMP  &kp DEL                                                                                         &kp SPACE
+           &mo MOUSE_TEMP  &kp ENTER                                                                                                                      &mo LOWER_TEMP
+                           &mo RAISE_TEMP  &kp DEL                                                                                         &kp SPACE
                                            &mkp LCLK     &mkp RCLK                                                            &kp BSPC
             >;
 
@@ -178,8 +178,8 @@
 &trans  &none   &mkp RCLK  &mkp MCLK  &mkp LCLK  &mo SCROLL  &kp C_MUTE  &mo SCROLL  &mkp LCLK  &mkp MCLK  &mkp RCLK  &none     &none
 &trans  &none   &none      &none      &none      &mo SNIPE               &mo SNIPE   &kp LEFT   &kp DOWN   &kp RIGHT  &none     &trans
 &trans  &trans  &trans     &trans                                                               &none      &none      &trans    &trans
-        &mo SCROLL  &mo SNIPE                                                                                                           &tog MOUSE_LOCK
-                &trans     &trans                                                                                               &mkp MB5
+        &trans  &trans                                                                                                                    &tog MOUSE_LOCK
+                &none      &trans                                                                                               &mkp MB5
                            &mkp LCLK  &mkp RCLK                                                                       &mkp MB4
             >;
 
