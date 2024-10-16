@@ -174,8 +174,8 @@
             display-name = "Mouse";
             bindings = <
 &trans  &none   &none      &none      &none      &none                   &kp PG_UP   &none      &none      &none      &none     &none
-&trans  &none   &none      &none      &none      &none                   &kp PG_DN   &kp HOME   &kp UP     &kp END    &none     &none
-&trans  &none   &mkp RCLK  &mkp MCLK  &mkp LCLK  &mo SCROLL  &kp C_MUTE  &mo SCROLL  &mkp LCLK  &mkp MCLK  &mkp RCLK  &none     &none
+&trans  &none   &none      &mkp MCLK  &none      &none                   &kp PG_DN   &kp HOME   &mkp MCLK  &kp END    &none     &none
+&trans  &none   &mkp RCLK  &none      &mkp LCLK  &mo SCROLL  &kp C_MUTE  &mo SCROLL  &mkp LCLK  &kp UP     &mkp RCLK  &none     &none
 &trans  &none   &none      &none      &none      &mo SNIPE               &mo SNIPE   &kp LEFT   &kp DOWN   &kp RIGHT  &none     &trans
 &trans  &trans  &trans     &trans                                                               &none      &none      &trans    &trans
         &trans  &trans                                                                                                                    &tog MOUSE_LOCK
